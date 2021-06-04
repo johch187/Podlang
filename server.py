@@ -8,6 +8,11 @@ from flask import Flask, request, render_template, jsonify
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
+##test
+
+
+
+
 # Authenticate with Spotify using the Client Credentials flow
 client_credentials_manager = SpotifyClientCredentials()
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
