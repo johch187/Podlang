@@ -2,3 +2,4 @@
 venv/
 .env
 keys.env
+config.py
